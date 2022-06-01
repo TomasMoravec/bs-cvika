@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@400;700&family=Roboto+Condensed:wght@300&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+#home {
+  background: url(../images/hotel.jpg) bottom center/cover no-repeat;
+  min-height: 750px;
+  position: relative;
+}
+
+#navigation {
+  font-weight: 100;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+#history #hp1 {
+  font-family: "Lato", sans-serif;
+}
+
+#history #hp2 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#history img {
+  max-width: 100%;
+}
+
+#pricing .card {
+  width: 100%;
+}
+
+.carBox {
+  background-color: rgba(0, 0, 0, 0.4);
+  bottom: 20px;
+  margin: auto;
+  width: 70%;
+  height: 90px;
+  z-index: 1;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  #home {
+    min-height: 400px;
+  }
+}
+/*# sourceMappingURL=custom.css.map */
